@@ -46,21 +46,6 @@ Chatbot Response
 - Pandas
 - scikit-learn
 
-## 📂 Project Structure
-
-```text
-ai-weather-chatbot/
-├── data/
-├── models/
-├── api/
-├── chatbot/
-├── notebooks/
-├── app.py
-├── requirements.txt
-├── .env.example
-└── README.md
-```
-
 ## ⚙️ Setup
 
 Install dependencies:
