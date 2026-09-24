@@ -1,4 +1,4 @@
-# 🌦️ AI Weather Chatbot
+# 🌦️Weather Chatbot
 
 An NLP-based weather chatbot that uses an **LSTM model** to understand user intents and the **OpenWeather API** to provide real-time weather information through a **Streamlit** interface.
 
