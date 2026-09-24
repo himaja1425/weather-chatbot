@@ -1,0 +1,578 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "hey bot",
+        "hello chatbot",
+        "hi there",
+        "greetings",
+        "good afternoon"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi! How can I help?",
+        "Welcome!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "take care",
+        "catch you later",
+        "bye bot",
+        "see you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "much appreciated",
+        "thank you so much",
+        "awesome thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "show commands",
+        "how can you help",
+        "features",
+        "supported weather information"
+      ],
+      "responses": [
+        "I can provide weather information for cities."
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "who are you",
+        "what is your name",
+        "your name",
+        "are you a chatbot",
+        "introduce yourself"
+      ],
+      "responses": [
+        "I'm your Weather Chatbot."
+      ]
+    },
+    {
+      "tag": "weather_overview",
+      "patterns": [
+        "weather today",
+        "current weather",
+        "weather report",
+        "weather update",
+        "how is the weather",
+        "today's weather",
+        "show weather",
+        "complete weather report",
+        "Weather in Delhi",
+        "Weather in Mumbai",
+        "Weather in Chennai",
+        "Weather in Hyderabad",
+        "Weather in Bengaluru",
+        "Weather in Kolkata",
+        "Weather in Visakhapatnam"
+      ],
+      "responses": [
+        "Fetching complete weather details.",
+        "Checking the latest weather."
+      ]
+    },
+    {
+      "tag": "current_temperature",
+      "patterns": [
+        "What is the current temperature?",
+        "Show current temperature",
+        "Current current temperature",
+        "Tell me the current temperature",
+        "current temperature today",
+        "Today's current temperature",
+        "Can you check the current temperature?",
+        "I need the current temperature",
+        "Give me the current temperature",
+        "Latest current temperature",
+        "Current temperature in Delhi",
+        "Current temperature in Mumbai",
+        "Current temperature in Chennai",
+        "Current temperature in Hyderabad",
+        "Current temperature in Bengaluru",
+        "Current temperature in Kolkata",
+        "Current temperature in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the current temperature.",
+        "Fetching the current temperature.",
+        "Let me get the current temperature."
+      ]
+    },
+    {
+      "tag": "feels_like_temperature",
+      "patterns": [
+        "What is the feels like temperature?",
+        "Show feels like temperature",
+        "Current feels like temperature",
+        "Tell me the feels like temperature",
+        "feels like temperature today",
+        "Today's feels like temperature",
+        "Can you check the feels like temperature?",
+        "I need the feels like temperature",
+        "Give me the feels like temperature",
+        "Latest feels like temperature",
+        "Feels like temperature in Delhi",
+        "Feels like temperature in Mumbai",
+        "Feels like temperature in Chennai",
+        "Feels like temperature in Hyderabad",
+        "Feels like temperature in Bengaluru",
+        "Feels like temperature in Kolkata",
+        "Feels like temperature in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the feels like temperature.",
+        "Fetching the feels like temperature.",
+        "Let me get the feels like temperature."
+      ]
+    },
+    {
+      "tag": "minimum_temperature",
+      "patterns": [
+        "What is the minimum temperature?",
+        "Show minimum temperature",
+        "Current minimum temperature",
+        "Tell me the minimum temperature",
+        "minimum temperature today",
+        "Today's minimum temperature",
+        "Can you check the minimum temperature?",
+        "I need the minimum temperature",
+        "Give me the minimum temperature",
+        "Latest minimum temperature",
+        "Minimum temperature in Delhi",
+        "Minimum temperature in Mumbai",
+        "Minimum temperature in Chennai",
+        "Minimum temperature in Hyderabad",
+        "Minimum temperature in Bengaluru",
+        "Minimum temperature in Kolkata",
+        "Minimum temperature in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the minimum temperature.",
+        "Fetching the minimum temperature.",
+        "Let me get the minimum temperature."
+      ]
+    },
+    {
+      "tag": "maximum_temperature",
+      "patterns": [
+        "What is the maximum temperature?",
+        "Show maximum temperature",
+        "Current maximum temperature",
+        "Tell me the maximum temperature",
+        "maximum temperature today",
+        "Today's maximum temperature",
+        "Can you check the maximum temperature?",
+        "I need the maximum temperature",
+        "Give me the maximum temperature",
+        "Latest maximum temperature",
+        "Maximum temperature in Delhi",
+        "Maximum temperature in Mumbai",
+        "Maximum temperature in Chennai",
+        "Maximum temperature in Hyderabad",
+        "Maximum temperature in Bengaluru",
+        "Maximum temperature in Kolkata",
+        "Maximum temperature in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the maximum temperature.",
+        "Fetching the maximum temperature.",
+        "Let me get the maximum temperature."
+      ]
+    },
+    {
+      "tag": "humidity",
+      "patterns": [
+        "What is the humidity?",
+        "Show humidity",
+        "Current humidity",
+        "Tell me the humidity",
+        "humidity today",
+        "Today's humidity",
+        "Can you check the humidity?",
+        "I need the humidity",
+        "Give me the humidity",
+        "Latest humidity",
+        "Humidity in Delhi",
+        "Humidity in Mumbai",
+        "Humidity in Chennai",
+        "Humidity in Hyderabad",
+        "Humidity in Bengaluru",
+        "Humidity in Kolkata",
+        "Humidity in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the humidity.",
+        "Fetching the humidity.",
+        "Let me get the humidity."
+      ]
+    },
+    {
+      "tag": "wind_speed",
+      "patterns": [
+        "What is the wind speed?",
+        "Show wind speed",
+        "Current wind speed",
+        "Tell me the wind speed",
+        "wind speed today",
+        "Today's wind speed",
+        "Can you check the wind speed?",
+        "I need the wind speed",
+        "Give me the wind speed",
+        "Latest wind speed",
+        "Wind speed in Delhi",
+        "Wind speed in Mumbai",
+        "Wind speed in Chennai",
+        "Wind speed in Hyderabad",
+        "Wind speed in Bengaluru",
+        "Wind speed in Kolkata",
+        "Wind speed in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the wind speed.",
+        "Fetching the wind speed.",
+        "Let me get the wind speed."
+      ]
+    },
+    {
+      "tag": "wind_direction",
+      "patterns": [
+        "What is the wind direction?",
+        "Show wind direction",
+        "Current wind direction",
+        "Tell me the wind direction",
+        "wind direction today",
+        "Today's wind direction",
+        "Can you check the wind direction?",
+        "I need the wind direction",
+        "Give me the wind direction",
+        "Latest wind direction",
+        "Wind direction in Delhi",
+        "Wind direction in Mumbai",
+        "Wind direction in Chennai",
+        "Wind direction in Hyderabad",
+        "Wind direction in Bengaluru",
+        "Wind direction in Kolkata",
+        "Wind direction in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the wind direction.",
+        "Fetching the wind direction.",
+        "Let me get the wind direction."
+      ]
+    },
+    {
+      "tag": "wind_gust",
+      "patterns": [
+        "What is the wind gust?",
+        "Show wind gust",
+        "Current wind gust",
+        "Tell me the wind gust",
+        "wind gust today",
+        "Today's wind gust",
+        "Can you check the wind gust?",
+        "I need the wind gust",
+        "Give me the wind gust",
+        "Latest wind gust",
+        "Wind gust in Delhi",
+        "Wind gust in Mumbai",
+        "Wind gust in Chennai",
+        "Wind gust in Hyderabad",
+        "Wind gust in Bengaluru",
+        "Wind gust in Kolkata",
+        "Wind gust in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the wind gust.",
+        "Fetching the wind gust.",
+        "Let me get the wind gust."
+      ]
+    },
+    {
+      "tag": "pressure",
+      "patterns": [
+        "What is the air pressure?",
+        "Show air pressure",
+        "Current air pressure",
+        "Tell me the air pressure",
+        "air pressure today",
+        "Today's air pressure",
+        "Can you check the air pressure?",
+        "I need the air pressure",
+        "Give me the air pressure",
+        "Latest air pressure",
+        "Air pressure in Delhi",
+        "Air pressure in Mumbai",
+        "Air pressure in Chennai",
+        "Air pressure in Hyderabad",
+        "Air pressure in Bengaluru",
+        "Air pressure in Kolkata",
+        "Air pressure in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the air pressure.",
+        "Fetching the air pressure.",
+        "Let me get the air pressure."
+      ]
+    },
+    {
+      "tag": "visibility",
+      "patterns": [
+        "What is the visibility?",
+        "Show visibility",
+        "Current visibility",
+        "Tell me the visibility",
+        "visibility today",
+        "Today's visibility",
+        "Can you check the visibility?",
+        "I need the visibility",
+        "Give me the visibility",
+        "Latest visibility",
+        "Visibility in Delhi",
+        "Visibility in Mumbai",
+        "Visibility in Chennai",
+        "Visibility in Hyderabad",
+        "Visibility in Bengaluru",
+        "Visibility in Kolkata",
+        "Visibility in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the visibility.",
+        "Fetching the visibility.",
+        "Let me get the visibility."
+      ]
+    },
+    {
+      "tag": "cloud_percentage",
+      "patterns": [
+        "What is the cloud coverage?",
+        "Show cloud coverage",
+        "Current cloud coverage",
+        "Tell me the cloud coverage",
+        "cloud coverage today",
+        "Today's cloud coverage",
+        "Can you check the cloud coverage?",
+        "I need the cloud coverage",
+        "Give me the cloud coverage",
+        "Latest cloud coverage",
+        "Cloud coverage in Delhi",
+        "Cloud coverage in Mumbai",
+        "Cloud coverage in Chennai",
+        "Cloud coverage in Hyderabad",
+        "Cloud coverage in Bengaluru",
+        "Cloud coverage in Kolkata",
+        "Cloud coverage in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the cloud coverage.",
+        "Fetching the cloud coverage.",
+        "Let me get the cloud coverage."
+      ]
+    },
+    {
+      "tag": "weather_description",
+      "patterns": [
+        "What is the weather condition?",
+        "Show weather condition",
+        "Current weather condition",
+        "Tell me the weather condition",
+        "weather condition today",
+        "Today's weather condition",
+        "Can you check the weather condition?",
+        "I need the weather condition",
+        "Give me the weather condition",
+        "Latest weather condition",
+        "Weather condition in Delhi",
+        "Weather condition in Mumbai",
+        "Weather condition in Chennai",
+        "Weather condition in Hyderabad",
+        "Weather condition in Bengaluru",
+        "Weather condition in Kolkata",
+        "Weather condition in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the weather condition.",
+        "Fetching the weather condition.",
+        "Let me get the weather condition."
+      ]
+    },
+    {
+      "tag": "rain_status",
+      "patterns": [
+        "What is the rain status?",
+        "Show rain status",
+        "Current rain status",
+        "Tell me the rain status",
+        "rain status today",
+        "Today's rain status",
+        "Can you check the rain status?",
+        "I need the rain status",
+        "Give me the rain status",
+        "Latest rain status",
+        "Rain status in Delhi",
+        "Rain status in Mumbai",
+        "Rain status in Chennai",
+        "Rain status in Hyderabad",
+        "Rain status in Bengaluru",
+        "Rain status in Kolkata",
+        "Rain status in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the rain status.",
+        "Fetching the rain status.",
+        "Let me get the rain status."
+      ]
+    },
+    {
+      "tag": "snow_status",
+      "patterns": [
+        "What is the snow status?",
+        "Show snow status",
+        "Current snow status",
+        "Tell me the snow status",
+        "snow status today",
+        "Today's snow status",
+        "Can you check the snow status?",
+        "I need the snow status",
+        "Give me the snow status",
+        "Latest snow status",
+        "Snow status in Delhi",
+        "Snow status in Mumbai",
+        "Snow status in Chennai",
+        "Snow status in Hyderabad",
+        "Snow status in Bengaluru",
+        "Snow status in Kolkata",
+        "Snow status in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the snow status.",
+        "Fetching the snow status.",
+        "Let me get the snow status."
+      ]
+    },
+    {
+      "tag": "sunrise_time",
+      "patterns": [
+        "What is the sunrise time?",
+        "Show sunrise time",
+        "Current sunrise time",
+        "Tell me the sunrise time",
+        "sunrise time today",
+        "Today's sunrise time",
+        "Can you check the sunrise time?",
+        "I need the sunrise time",
+        "Give me the sunrise time",
+        "Latest sunrise time",
+        "Sunrise time in Delhi",
+        "Sunrise time in Mumbai",
+        "Sunrise time in Chennai",
+        "Sunrise time in Hyderabad",
+        "Sunrise time in Bengaluru",
+        "Sunrise time in Kolkata",
+        "Sunrise time in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the sunrise time.",
+        "Fetching the sunrise time.",
+        "Let me get the sunrise time."
+      ]
+    },
+    {
+      "tag": "sunset_time",
+      "patterns": [
+        "What is the sunset time?",
+        "Show sunset time",
+        "Current sunset time",
+        "Tell me the sunset time",
+        "sunset time today",
+        "Today's sunset time",
+        "Can you check the sunset time?",
+        "I need the sunset time",
+        "Give me the sunset time",
+        "Latest sunset time",
+        "Sunset time in Delhi",
+        "Sunset time in Mumbai",
+        "Sunset time in Chennai",
+        "Sunset time in Hyderabad",
+        "Sunset time in Bengaluru",
+        "Sunset time in Kolkata",
+        "Sunset time in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the sunset time.",
+        "Fetching the sunset time.",
+        "Let me get the sunset time."
+      ]
+    },
+    {
+      "tag": "local_timezone",
+      "patterns": [
+        "What is the timezone?",
+        "Show timezone",
+        "Current timezone",
+        "Tell me the timezone",
+        "timezone today",
+        "Today's timezone",
+        "Can you check the timezone?",
+        "I need the timezone",
+        "Give me the timezone",
+        "Latest timezone",
+        "Timezone in Delhi",
+        "Timezone in Mumbai",
+        "Timezone in Chennai",
+        "Timezone in Hyderabad",
+        "Timezone in Bengaluru",
+        "Timezone in Kolkata",
+        "Timezone in Visakhapatnam"
+      ],
+      "responses": [
+        "Checking the timezone.",
+        "Fetching the timezone.",
+        "Let me get the timezone."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdf",
+        "random question",
+        "blah blah"
+      ],
+      "responses": [
+        "Sorry, I didn't understand. Please ask a weather-related question."
+      ]
+    }
+  ]
+}

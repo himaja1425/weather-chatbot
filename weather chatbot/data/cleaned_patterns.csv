@@ -1,0 +1,342 @@
+pattern,tag
+hi,greeting
+hello,greeting
+hey,greeting
+good morning,greeting
+good evening,greeting
+hey bot,greeting
+hello chatbot,greeting
+hi there,greeting
+greeting,greeting
+good afternoon,greeting
+bye,goodbye
+goodbye,goodbye
+see you,goodbye
+take care,goodbye
+catch you later,goodbye
+bye bot,goodbye
+see you later,goodbye
+thanks,thanks
+thank you,thanks
+thanks a lot,thanks
+much appreciated,thanks
+thank you so much,thanks
+awesome thanks,thanks
+help,help
+what can you do,help
+show command,help
+how can you help,help
+feature,help
+supported weather information,help
+who are you,bot_name
+what is your name,bot_name
+your name,bot_name
+are you a chatbot,bot_name
+introduce yourself,bot_name
+weather today,weather_overview
+current weather,weather_overview
+weather report,weather_overview
+weather update,weather_overview
+how is the weather,weather_overview
+today weather,weather_overview
+show weather,weather_overview
+complete weather report,weather_overview
+weather in delhi,weather_overview
+weather in mumbai,weather_overview
+weather in chennai,weather_overview
+weather in hyderabad,weather_overview
+weather in bengaluru,weather_overview
+weather in kolkata,weather_overview
+weather in visakhapatnam,weather_overview
+what is the current temperature,current_temperature
+show current temperature,current_temperature
+current current temperature,current_temperature
+tell me the current temperature,current_temperature
+current temperature today,current_temperature
+today current temperature,current_temperature
+can you check the current temperature,current_temperature
+i need the current temperature,current_temperature
+give me the current temperature,current_temperature
+latest current temperature,current_temperature
+current temperature in delhi,current_temperature
+current temperature in mumbai,current_temperature
+current temperature in chennai,current_temperature
+current temperature in hyderabad,current_temperature
+current temperature in bengaluru,current_temperature
+current temperature in kolkata,current_temperature
+current temperature in visakhapatnam,current_temperature
+what is the feel like temperature,feels_like_temperature
+show feel like temperature,feels_like_temperature
+current feel like temperature,feels_like_temperature
+tell me the feel like temperature,feels_like_temperature
+feel like temperature today,feels_like_temperature
+today feel like temperature,feels_like_temperature
+can you check the feel like temperature,feels_like_temperature
+i need the feel like temperature,feels_like_temperature
+give me the feel like temperature,feels_like_temperature
+latest feel like temperature,feels_like_temperature
+feel like temperature in delhi,feels_like_temperature
+feel like temperature in mumbai,feels_like_temperature
+feel like temperature in chennai,feels_like_temperature
+feel like temperature in hyderabad,feels_like_temperature
+feel like temperature in bengaluru,feels_like_temperature
+feel like temperature in kolkata,feels_like_temperature
+feel like temperature in visakhapatnam,feels_like_temperature
+what is the minimum temperature,minimum_temperature
+show minimum temperature,minimum_temperature
+current minimum temperature,minimum_temperature
+tell me the minimum temperature,minimum_temperature
+minimum temperature today,minimum_temperature
+today minimum temperature,minimum_temperature
+can you check the minimum temperature,minimum_temperature
+i need the minimum temperature,minimum_temperature
+give me the minimum temperature,minimum_temperature
+latest minimum temperature,minimum_temperature
+minimum temperature in delhi,minimum_temperature
+minimum temperature in mumbai,minimum_temperature
+minimum temperature in chennai,minimum_temperature
+minimum temperature in hyderabad,minimum_temperature
+minimum temperature in bengaluru,minimum_temperature
+minimum temperature in kolkata,minimum_temperature
+minimum temperature in visakhapatnam,minimum_temperature
+what is the maximum temperature,maximum_temperature
+show maximum temperature,maximum_temperature
+current maximum temperature,maximum_temperature
+tell me the maximum temperature,maximum_temperature
+maximum temperature today,maximum_temperature
+today maximum temperature,maximum_temperature
+can you check the maximum temperature,maximum_temperature
+i need the maximum temperature,maximum_temperature
+give me the maximum temperature,maximum_temperature
+latest maximum temperature,maximum_temperature
+maximum temperature in delhi,maximum_temperature
+maximum temperature in mumbai,maximum_temperature
+maximum temperature in chennai,maximum_temperature
+maximum temperature in hyderabad,maximum_temperature
+maximum temperature in bengaluru,maximum_temperature
+maximum temperature in kolkata,maximum_temperature
+maximum temperature in visakhapatnam,maximum_temperature
+what is the humidity,humidity
+show humidity,humidity
+current humidity,humidity
+tell me the humidity,humidity
+humidity today,humidity
+today humidity,humidity
+can you check the humidity,humidity
+i need the humidity,humidity
+give me the humidity,humidity
+latest humidity,humidity
+humidity in delhi,humidity
+humidity in mumbai,humidity
+humidity in chennai,humidity
+humidity in hyderabad,humidity
+humidity in bengaluru,humidity
+humidity in kolkata,humidity
+humidity in visakhapatnam,humidity
+what is the wind speed,wind_speed
+show wind speed,wind_speed
+current wind speed,wind_speed
+tell me the wind speed,wind_speed
+wind speed today,wind_speed
+today wind speed,wind_speed
+can you check the wind speed,wind_speed
+i need the wind speed,wind_speed
+give me the wind speed,wind_speed
+latest wind speed,wind_speed
+wind speed in delhi,wind_speed
+wind speed in mumbai,wind_speed
+wind speed in chennai,wind_speed
+wind speed in hyderabad,wind_speed
+wind speed in bengaluru,wind_speed
+wind speed in kolkata,wind_speed
+wind speed in visakhapatnam,wind_speed
+what is the wind direction,wind_direction
+show wind direction,wind_direction
+current wind direction,wind_direction
+tell me the wind direction,wind_direction
+wind direction today,wind_direction
+today wind direction,wind_direction
+can you check the wind direction,wind_direction
+i need the wind direction,wind_direction
+give me the wind direction,wind_direction
+latest wind direction,wind_direction
+wind direction in delhi,wind_direction
+wind direction in mumbai,wind_direction
+wind direction in chennai,wind_direction
+wind direction in hyderabad,wind_direction
+wind direction in bengaluru,wind_direction
+wind direction in kolkata,wind_direction
+wind direction in visakhapatnam,wind_direction
+what is the wind gust,wind_gust
+show wind gust,wind_gust
+current wind gust,wind_gust
+tell me the wind gust,wind_gust
+wind gust today,wind_gust
+today wind gust,wind_gust
+can you check the wind gust,wind_gust
+i need the wind gust,wind_gust
+give me the wind gust,wind_gust
+latest wind gust,wind_gust
+wind gust in delhi,wind_gust
+wind gust in mumbai,wind_gust
+wind gust in chennai,wind_gust
+wind gust in hyderabad,wind_gust
+wind gust in bengaluru,wind_gust
+wind gust in kolkata,wind_gust
+wind gust in visakhapatnam,wind_gust
+what is the air pressure,pressure
+show air pressure,pressure
+current air pressure,pressure
+tell me the air pressure,pressure
+air pressure today,pressure
+today air pressure,pressure
+can you check the air pressure,pressure
+i need the air pressure,pressure
+give me the air pressure,pressure
+latest air pressure,pressure
+air pressure in delhi,pressure
+air pressure in mumbai,pressure
+air pressure in chennai,pressure
+air pressure in hyderabad,pressure
+air pressure in bengaluru,pressure
+air pressure in kolkata,pressure
+air pressure in visakhapatnam,pressure
+what is the visibility,visibility
+show visibility,visibility
+current visibility,visibility
+tell me the visibility,visibility
+visibility today,visibility
+today visibility,visibility
+can you check the visibility,visibility
+i need the visibility,visibility
+give me the visibility,visibility
+latest visibility,visibility
+visibility in delhi,visibility
+visibility in mumbai,visibility
+visibility in chennai,visibility
+visibility in hyderabad,visibility
+visibility in bengaluru,visibility
+visibility in kolkata,visibility
+visibility in visakhapatnam,visibility
+what is the cloud coverage,cloud_percentage
+show cloud coverage,cloud_percentage
+current cloud coverage,cloud_percentage
+tell me the cloud coverage,cloud_percentage
+cloud coverage today,cloud_percentage
+today cloud coverage,cloud_percentage
+can you check the cloud coverage,cloud_percentage
+i need the cloud coverage,cloud_percentage
+give me the cloud coverage,cloud_percentage
+latest cloud coverage,cloud_percentage
+cloud coverage in delhi,cloud_percentage
+cloud coverage in mumbai,cloud_percentage
+cloud coverage in chennai,cloud_percentage
+cloud coverage in hyderabad,cloud_percentage
+cloud coverage in bengaluru,cloud_percentage
+cloud coverage in kolkata,cloud_percentage
+cloud coverage in visakhapatnam,cloud_percentage
+what is the weather condition,weather_description
+show weather condition,weather_description
+current weather condition,weather_description
+tell me the weather condition,weather_description
+weather condition today,weather_description
+today weather condition,weather_description
+can you check the weather condition,weather_description
+i need the weather condition,weather_description
+give me the weather condition,weather_description
+latest weather condition,weather_description
+weather condition in delhi,weather_description
+weather condition in mumbai,weather_description
+weather condition in chennai,weather_description
+weather condition in hyderabad,weather_description
+weather condition in bengaluru,weather_description
+weather condition in kolkata,weather_description
+weather condition in visakhapatnam,weather_description
+what is the rain status,rain_status
+show rain status,rain_status
+current rain status,rain_status
+tell me the rain status,rain_status
+rain status today,rain_status
+today rain status,rain_status
+can you check the rain status,rain_status
+i need the rain status,rain_status
+give me the rain status,rain_status
+latest rain status,rain_status
+rain status in delhi,rain_status
+rain status in mumbai,rain_status
+rain status in chennai,rain_status
+rain status in hyderabad,rain_status
+rain status in bengaluru,rain_status
+rain status in kolkata,rain_status
+rain status in visakhapatnam,rain_status
+what is the snow status,snow_status
+show snow status,snow_status
+current snow status,snow_status
+tell me the snow status,snow_status
+snow status today,snow_status
+today snow status,snow_status
+can you check the snow status,snow_status
+i need the snow status,snow_status
+give me the snow status,snow_status
+latest snow status,snow_status
+snow status in delhi,snow_status
+snow status in mumbai,snow_status
+snow status in chennai,snow_status
+snow status in hyderabad,snow_status
+snow status in bengaluru,snow_status
+snow status in kolkata,snow_status
+snow status in visakhapatnam,snow_status
+what is the sunrise time,sunrise_time
+show sunrise time,sunrise_time
+current sunrise time,sunrise_time
+tell me the sunrise time,sunrise_time
+sunrise time today,sunrise_time
+today sunrise time,sunrise_time
+can you check the sunrise time,sunrise_time
+i need the sunrise time,sunrise_time
+give me the sunrise time,sunrise_time
+latest sunrise time,sunrise_time
+sunrise time in delhi,sunrise_time
+sunrise time in mumbai,sunrise_time
+sunrise time in chennai,sunrise_time
+sunrise time in hyderabad,sunrise_time
+sunrise time in bengaluru,sunrise_time
+sunrise time in kolkata,sunrise_time
+sunrise time in visakhapatnam,sunrise_time
+what is the sunset time,sunset_time
+show sunset time,sunset_time
+current sunset time,sunset_time
+tell me the sunset time,sunset_time
+sunset time today,sunset_time
+today sunset time,sunset_time
+can you check the sunset time,sunset_time
+i need the sunset time,sunset_time
+give me the sunset time,sunset_time
+latest sunset time,sunset_time
+sunset time in delhi,sunset_time
+sunset time in mumbai,sunset_time
+sunset time in chennai,sunset_time
+sunset time in hyderabad,sunset_time
+sunset time in bengaluru,sunset_time
+sunset time in kolkata,sunset_time
+sunset time in visakhapatnam,sunset_time
+what is the timezone,local_timezone
+show timezone,local_timezone
+current timezone,local_timezone
+tell me the timezone,local_timezone
+timezone today,local_timezone
+today timezone,local_timezone
+can you check the timezone,local_timezone
+i need the timezone,local_timezone
+give me the timezone,local_timezone
+latest timezone,local_timezone
+timezone in delhi,local_timezone
+timezone in mumbai,local_timezone
+timezone in chennai,local_timezone
+timezone in hyderabad,local_timezone
+timezone in bengaluru,local_timezone
+timezone in kolkata,local_timezone
+timezone in visakhapatnam,local_timezone
+asdf,unknown
+random question,unknown
+blah blah,unknown
